@@ -2,14 +2,42 @@
   "jurisdictions": [
     {
       "id": "JD_1",
-      "name": "Jurisdiction 1"
+      "name": "Jurisdiction 1",
+      "description": "Description of jurisdiction 1",
+      "case_types": [
+        {
+          "id": "CT_1",
+          "name": "Case Type 1",
+          "description": "Description of case type 1",
+		  "states": [{
+			"id": "CaseCreated", "name": "Case created"
+		  },
+		  {
+			"id": "CaseEnteredIntoLegacy", "name": "Case has been Entered into Legacy"
+		  },
+		  {
+			"id": "CaseStopped", "name": "Put case on hold"
+		  }]
+        },
+        {
+          "id": "CT_2",
+          "name": "Case Type 2",
+          "description": "Description of case type 2",
+		  "states":[]
+        }
+      ]
     },
-	{
-	"id":"JD_2",
-	"name":"Jurisdiction 2"
-}
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    {
+      "id": "JD_2",
+      "name": "Jurisdiction 2",
+      "description": "Description of jurisdiction 2",
+      "case_types": [
+        {
+          "id": "CT_3",
+          "name": "Case Type 3",
+          "description": "Description of case type 3",
+        }
+      ]
+    }
+  ]
 }
