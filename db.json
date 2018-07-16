@@ -1,7 +1,7 @@
 {
   "jurisdictions": [
     {
-      "id": "JD_1",
+      "id": "TEST",
       "name": "Jurisdiction 1",
       "description": "Description of jurisdiction 1",
       "case_types": [
