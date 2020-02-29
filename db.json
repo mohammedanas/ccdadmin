@@ -2,11 +2,11 @@
   "cities": [
     {
       "name": "London",
-      "description": "Capital of the UK",
+      "description": "Capital of the UK"
     },
     {
       "name": "Birmingham",
-      "description": "Second largest city in the UK",
+      "description": "Second largest city in the UK"
     }
   ]
 }
